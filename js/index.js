@@ -13,5 +13,16 @@ var tempF = 0;
     	} else {
     		alert('You need to enter a number!'); // otherwise if input is empty or not a number, alert the user
     	}
+
+    	// change background code starts here
+
+    	if(tempF > 85){ // change the background to a desert if the resulting temp is > 85 F
+			$('body').attr('class', 'hot');
+			// alert('Temp is over 85!');
+		} else if(tempF < 50){ // change to a snowy picture if < 50 degrees
+			$('body').attr('class', 'cold');
+		} else { // otherwise change background to a beautiful meadow picture because temp is 50-85 degrees
+			$('body').attr('class', 'nice');
+		}
 	});
 });

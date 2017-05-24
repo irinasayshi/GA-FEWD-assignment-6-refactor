@@ -124,13 +124,13 @@ header {
 }
 
 .cold {
-  background-image: url(../images/nyc.jpg)
+  background-image: url(../images/cold.jpg)
 }
 .nice {
-  background-image: url(../images/sf.jpg)
+  background-image: url(../images/GreatMeadows.jpg)
 }
 .hot {
-  background-image: url(../images/la.jpg)
+  background-image: url(../images/desert.JPG)
 }
 
 /******************************************
