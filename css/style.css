@@ -132,6 +132,9 @@ header {
 .hot {
   background-image: url(../images/desert.JPG)
 }
+.default {
+  background-image: url(../images/citipix_skyline.jpg)
+}
 
 /******************************************
 /* ADDITIONAL STYLES
